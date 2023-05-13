@@ -48,12 +48,15 @@ The platform is built using the following technologies:
 3. Run npm install
 4. Create a .env file with the following environment variables:
 - PORT=3000
-- MONGO_URI=<your_mongodb_uri>
+- MONGODB_URL=<your_mongodb_uri>
 - JWT_SECRET=<your_jwt_secret>
 5. Run npm start
 
 ### Contributors
 - Aman Gupta
 - Shashank Kumar
+- Prakhar Singh
+- Prarthana Agrawal
+- Rajat Dixit
 
 Built with ❤️ by Team C.O.D.E
