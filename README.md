@@ -1,33 +1,59 @@
-# Airbus_Hackathon
+# Airbus-Aerothon 2023
+# Team C.O.D.E
+# [Link to the Problem Statement](https://docs.google.com/document/d/16l-kwd2kgPEODNoSkZ0Fcz7LHsiKZq5a/edit?usp=sharing&ouid=112652078616145281912&rtpof=true&sd=true)   
+A Solution and approach to reduce the underlying intermediate data in the system and make the approach of departments using the data more sustainable in the long term for t:
+
+### Deliverables
+- A data lake with a normalized DB to reduce the redundancy
+- An automation process for data stamping(approval) the real time data.
+- A dashboard for the users in each domain to access the data required for their domain and also allow the forecast and real time data creation.
+- A dashboard for the data officer to monitor the data stamping process
 
 
-Here is a possible solution and approach to reduce the underlying intermediate data in the system and make the approach of departments using the data more sustainable in the long term:
+## Solution Approach
+<img src="dfd.png"><br>
+- Solution Plan for Reducing Intermediate Data in the Manufacturing Supply Chain:
+- Objective:
+To reduce intermediate data in the manufacturing supply chain by creating a data lake with a normalized database, identifying and eliminating redundant data, and creating dashboards for domain-specific data access and data officer monitoring.
 
-Create a data lake with a normalized DB to reduce the redundancy.
-A data lake is a centralized repository for all data, regardless of its source or format. This allows for the easy storage and access of all data, including intermediate data. By normalizing the data, we can reduce redundancy and improve the accuracy of the data.
+- Solution Components:
 
-Identify the current redundant data from the forecasted data.
-Once the data is stored in a data lake, we can use data mining techniques to identify redundant data. This can be done by comparing the data to itself and identifying any duplicate or near-duplicate records.
+- Data Lake: Create a centralized data repository (data lake) that will store all types of data related to the manufacturing supply chain process. The data lake will allow for easy data access and management and reduce redundancy by normalizing the database.
 
-Create an automation process for data stamping(approval) the real time data.
-Once the redundant data has been identified, we can create an automation process to stamp it as "redundant". This will prevent the data from being used by other departments.
+- Data Analysis: Conduct an analysis of the forecasted data to identify and eliminate any redundant data. This will reduce the amount of data generated and stored in the system.
 
-Create a dashboard for the users in each domain to access the data required for their domain and also allow the forecast and real time data creation.
-We can create a dashboard for each domain that allows users to access the data required for their domain. This dashboard can also be used to create forecast and real time data.
+- Automation of Data Stamping: Create an automation process to stamp (approve) the real-time data as it becomes available. This will ensure that the data is authentic and can be used for decision making.
 
-Create a dashboard for the data officer to monitor the data stamping process.
-The data officer can use a dashboard to monitor the data stamping process. This will allow them to ensure that the redundant data is being stamped correctly and that it is not being used by other departments.
+- Domain-Specific Dashboards: Create dashboards for each domain to access the data required for their domain. The dashboards will allow users to access only the relevant data, reducing the amount of data they need to process and store. The dashboards should also allow users to create forecast and real-time data.
 
-The following are the technologies that can be used to implement the solution:
+- Data Officer Monitoring Dashboard: Create a dashboard for the data officer to monitor the data stamping process. This will ensure that the data is being stamped and approved in a timely manner and that there are no delays in the manufacturing process.
 
-Data lake: Apache Hadoop, Apache Spark, Amazon S3, Google Cloud Storage
-Data mining: Apache Spark MLlib, Google Cloud Dataproc
-Data stamping: Apache Airflow, Google Cloud Dataflow
-Dashboards: Apache Superset, Google Data Studio
-The following are the evaluation criteria for the solution:
+- Regular Data Audits: Conduct regular audits of the data to ensure that it is accurate and up-to-date. This will help to further reduce redundancy and ensure that departments are using the most relevant and accurate data.
 
-The platform should meet the requirements and be fully functional for the users.
-The platform should have authentication and authorization for customers like: ○ User and their department.
-Performance and scalability.
-Creativity and innovation.
-Clarity and quality of the presentation or demonstration.
+### Use Case
+<img src="usd.png"><br>
+
+### Tech Stack
+The platform is built using the following technologies:
+
+- React - front-end framework
+- Node.js - back-end runtime environment
+- MongoDB - database management system
+- Express.js - web application framework for Node.js
+- JWT - JSON Web Token for authentication
+
+### Installation
+1. Clone the repository
+2. Navigate to the root directory
+3. Run npm install
+4. Create a .env file with the following environment variables:
+- PORT=3000
+- MONGO_URI=<your_mongodb_uri>
+- JWT_SECRET=<your_jwt_secret>
+5. Run npm start
+
+### Contributors
+- Aman Gupta
+- Shashank Kumar
+
+Built with ❤️ by Team C.O.D.E
