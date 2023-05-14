@@ -1,0 +1,35 @@
+.formHeading {
+    font-size: 24px;
+    text-align: center;
+    font-weight: bold;
+    color: #335577;
+  }
+  
+  .containerBorder {
+    border-radius: 20px;
+    padding-bottom: 20px;
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+  
+  .hrStyle {
+    border: 1px solid rgba(100, 100, 100, 0.8);
+    color: #646464;
+  }
+  
+  .modalStyle {
+    width: 50%;
+    border-radius: 10px;
+    position: absolute !important;
+    left: 20% !important;
+    top: 5rem !important;
+    background-image: url("https://www.flextrades.com/wp-content/uploads/2021/11/bigstock-Shipping-Logistic-Supply-Chai-399620762-scaled-1-2048x1170.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 20px;
+  }
+  
+  .ModalToEdit {
+    display: none;
+  }
+  
